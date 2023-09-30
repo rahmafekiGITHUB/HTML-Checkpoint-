@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=h, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
 <ul>
- <a href=""><li> Home </li></a>
- <a href="#About"><li> About</li></a>
- <a href="#work"><li>work</li></a>
- <a href="#Resume"><li> Resume</li></a>
- <a href="#contact"><li> contact </li></a>
+ <a href="#Home"><li id="A"  > Home </li></a>
+ <a href="#About"><li id="B"> About</li></a>
+ <a href="#work"><li id="C">work</li></a>
+ <a href="#Resume"><li id="D"> Resume</li></a>
+ <a href="#contact"><li id="E"> contact </li></a>
 </ul>
     </header>
     <main>
     <div id="Home">
-        <h1>HOME</h1>
-        <p>This Is My Home Page </p>
-    <img src="https://gomycodelearndev.blob.core.windows.net/profiles/eb7ae81c-c99a-4c28-95bc-a824c40f79ef-133362142131476546.jpg" alt="profile pic">
+        <h1 >HOME</h1>
+        <!-- <p id="title" >This Is My Home Page </p> -->
+    <img class="CC" src="https://gomycodelearndev.blob.core.windows.net/profiles/eb7ae81c-c99a-4c28-95bc-a824c40f79ef-133362142131476546.jpg" alt="profile pic" width="250" height="350" >
     </div>
     <div id="About"> 
-        <h1>About</h1>
-        <table border="1">
+        <h1 >About</h1>
+        <table id="table" border="1" >
             <tr>
                 <th>NAME </th>
                 <th>AGE</th>
@@ -41,15 +42,15 @@
         <h1>
             Work
         </h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Vbt14dIkGwk?si=7ZLfIoHutLvTccut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe  width="560" height="315"  src="https://www.youtube.com/embed/Vbt14dIkGwk?si=7ZLfIoHutLvTccut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
     </div>
     <div id="Resume">
-        <h1>Resume</h1>
-        <p>My name is Feki Rahma, I am a Fulstack JS student at Gomycode, I am looking for a job as a Fulstack JS developer, please contact me if there is an opportunity</p>
+        <h1 >Resume</h1>
+        <p id="descri">My name is Feki Rahma, I am a Fulstack JS student at Gomycode, I am looking for a job as a Fulstack JS developer, please contact me if there is an opportunity</p>
     </div>
     <div id="contact">
-        <h1>contact</h1>
-        <form > 
+        <h1 >contact</h1>
+        <form  > 
             <label >Email </label>
             <input type="email"/>
             <label >Numero </label>

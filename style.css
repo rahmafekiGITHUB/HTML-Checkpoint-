@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{ 
+    margin: 0 auto;
+}
+
+header {
+background-color: black;
+height: 50px;
+padding-top: 20px;
+
+}
+li { 
+    color: white;
+    display: inline;
+    padding-left: 20px;
+    font-family: Roboto;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+
+}
+li:hover {
+    color: aqua;
+}
+#A:hover{
+    color: brown;
+}
+#B:hover{
+    color: blueviolet;
+}
+#C:hover{
+    color: aqua;
+}
+#D:hover{
+    color: darkgreen;
+}
+#E:hover{
+    color: darkorange;
+}
+
+#Home img{
+margin-left: 550px;
+border-radius: 100%;
+}
+div p {
+ color: blue;
+ text-align: center;
+ font-size: larger;
+ font-weight: bold;
+}
+#title{
+    font-size: xx-large;
+    color: blue;
+}
+/* #work{
+    color: aqua;
+} */
+/* #Resume{
+    color: darkgreen;
+} */
+#descri{
+    color: black;
+    margin-left: 25%;
+    padding: 0%;
+    text-align: left;
+    border: 2PX dashed black;
+    width: 50%;
+    padding: 20px;
+
+
+}
+iframe{
+    width: 500px;
+    height: 200PX;
+    padding-left: 100PX;
+    padding-top: 100;
+
+}
+
+.CC{
+    width:250PX;
+    height: 200PX;
+    margin-left:10PX;
+}
+#table{
+    margin-left:100px;
+
+}
+h1{
+    text-align: center;
+    margin-top: 20PX;
+    margin-bottom: 20px;
+}
